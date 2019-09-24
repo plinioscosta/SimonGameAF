@@ -4,6 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Abstract Messages for Caller" Type="Folder"/>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Select Color to Display Msg.lvclass" Type="LVClass" URL="../GameLogic Messages/Select Color to Display Msg/Select Color to Display Msg.lvclass"/>
+	</Item>
 	<Item Name="GameLogic.lvclass" Type="LVClass" URL="../GameLogic/GameLogic.lvclass"/>
 </Library>
