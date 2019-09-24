@@ -5,7 +5,10 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Abstract Messages for Caller" Type="Folder"/>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Display Color Sequence Msg.lvclass" Type="LVClass" URL="../GameLogic Messages/Display Color Sequence Msg/Display Color Sequence Msg.lvclass"/>
 		<Item Name="Select Color to Display Msg.lvclass" Type="LVClass" URL="../GameLogic Messages/Select Color to Display Msg/Select Color to Display Msg.lvclass"/>
+		<Item Name="Sequence Raffling Msg.lvclass" Type="LVClass" URL="../GameLogic Messages/Sequence Raffling Msg/Sequence Raffling Msg.lvclass"/>
+		<Item Name="Turn all Colors off Msg.lvclass" Type="LVClass" URL="../GameLogic Messages/Turn all Colors off Msg/Turn all Colors off Msg.lvclass"/>
 	</Item>
 	<Item Name="GameLogic.lvclass" Type="LVClass" URL="../GameLogic/GameLogic.lvclass"/>
 </Library>
